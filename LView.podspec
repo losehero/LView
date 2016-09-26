@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "LView"
   s.version      = "0.0.1"
-  s.summary      = "A short description of LView."
+  s.summary      = "LView  for ios"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                        私有Pods测试
+                        私有Pods测试，主要测试如果单搭建自己的私有库
                    DESC
 
-    s.homepage     = "https://github.com/losehero/LView"
+  s.homepage     = "https://github.com/losehero/LView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-   s.platform     = :ios, "8.0"
+   s.platform     = :ios, "6.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "8.0"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/losehero/LView.git", :tag => s.version.to_s}
+  s.source       = { :git => "https://github.com/losehero/LView.git"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
